@@ -9,8 +9,11 @@
 ## Development
 
 ```bash
-# install VuePress locally
-npm i -g vuepress
+# install VuePress locally - updated
+yarn global add vuepress
+
+# create a markdown file
+echo '# Hello VuePress' > README.md
 
 # Start local dev server
 vuepress dev portfolio
