@@ -13,5 +13,15 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: another_header
+  type: text
+  config:
+    required: false
+  label: Another header
+  description: asdas
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
 pages:
 - portfolio/index.md
