@@ -6,6 +6,12 @@
   "favicon": "favicon-32x32.png",
   "navigation": [
     {
+      "text": "About",
+      "link": "about",
+      "position": "",
+      "external": false
+    },
+    {
       "text": "News",
       "link": "news",
       "position": "",
