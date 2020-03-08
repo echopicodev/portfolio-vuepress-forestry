@@ -1,4 +1,27 @@
 ---
 label: subpage with fields full
 hide_body: true
-fields: []
+fields:
+- name: heade_rimg
+  type: file
+  config:
+    maxSize: 250
+  label: heade rimg
+- name: body_test_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: body test text
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
