@@ -1,4 +1,13 @@
 ---
 label: Subpage fields & big content area
 hide_body: false
-fields: []
+fields:
+- name: asdas
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: asdas
